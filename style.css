@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+body{
+    font-family: 'Roboto',sans-serif; 
+}
+* {
+    margin: 0;
+    padding: 0;
+    background-color: blanchedalmond;
+}
+h2{
+    padding-left: 500px;
+    margin-top: 30px;
+}
+i{
+    margin-left: 10px;
+}
+table{
+    padding: 100px 0px 0 350px;
+}
+input:focus,
+button:focus,
+.prix :focus {
+    outline : none;
+    box-shadow: none;
+}
+input{
+    width: 100px;
+    border-radius: 2px;
+}
+.prix  :disabled,  .prix[read-only] {
+    background-color: blue;
+}
+.table tr ,
+.table tr td {
+    vertical-align: middle;
+}
+.button-contenair {
+    display: flex;
+    align-items: center;
+
+
+}
+.button-contenair .controle {
+    max-width: 80 px;
+    text-align: center;
+    display: inline-block;
+    margin: 0px 5px;
+}
+.plus ,
+.moins {
+    width: 38px;
+    height: 38 px;
+    background-color: #fff;
+    border: 1px solid #ceda;
+    border-radius: 25rem;
+}
+.plus:hover ,
+.moins:hover {
+    background-color: #5161ce;
+    color: #fff;
+}
+img-produit{
+    width: 50px;
+    height: 50px;
+    background-color: #5161ce;
+    border-radius: 4 px;
+}
+.img-produit img{
+    width: 100%;
+}
+tfoot tr strong {
+    padding-top: -600px;
+}
